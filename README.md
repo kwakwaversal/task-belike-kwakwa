@@ -10,6 +10,12 @@ Task::BeLike::KWAKWA - Be more like KWAKWA!
 
 ### [App::ForkProve](https://metacpan.org/pod/App::ForkProve)
 
+## Testing
+
+### [Test::MockTime](https://metacpan.org/pod/Test::MockTime)
+
+### [Test::Mojo](https://metacpan.org/pod/Test::Mojo) can be used to test Dancer2 apps too.
+
 ## Web
 
 ### [Catalyst](https://metacpan.org/pod/Catalyst)
