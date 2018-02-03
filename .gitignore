@@ -1,0 +1,7 @@
+/Task-BeLike-KWAKWA-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove
