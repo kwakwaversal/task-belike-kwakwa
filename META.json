@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Be more like KWAKWA - use the modules he likes!",
    "author" : [
       "Paul Williams <kwakwa@cpan.org>"
    ],
@@ -47,7 +47,21 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kwakwaversal/task-belike-kwakwa/issues"
+      },
+      "homepage" : "https://github.com/kwakwaversal/task-belike-kwakwa",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/kwakwaversal/task-belike-kwakwa.git",
+         "web" : "https://github.com/kwakwaversal/task-belike-kwakwa"
+      }
+   },
    "version" : "0.01",
+   "x_contributors" : [
+      "Paul Williams <kwakwaversal@gmail.com>"
+   ],
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.0218"
 }
 

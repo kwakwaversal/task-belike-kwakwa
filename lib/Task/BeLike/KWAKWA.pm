@@ -4,6 +4,8 @@ use strict;
 use 5.008_005;
 our $VERSION = '0.01';
 
+# ABSTRACT: Be more like KWAKWA - use the modules he likes!
+
 1;
 __END__
 
@@ -11,7 +13,7 @@ __END__
 
 =head1 NAME
 
-Task::BeLike::KWAKWA - Blah blah blah
+Task::BeLike::KWAKWA - Be more like KWAKWA!
 
 =head1 SYNOPSIS
 

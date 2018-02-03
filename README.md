@@ -1,6 +1,6 @@
 # NAME
 
-Task::BeLike::KWAKWA - Blah blah blah
+Task::BeLike::KWAKWA - Be more like KWAKWA!
 
 # SYNOPSIS
 
