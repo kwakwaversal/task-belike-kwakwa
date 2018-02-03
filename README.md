@@ -2,13 +2,21 @@
 
 Task::BeLike::KWAKWA - Be more like KWAKWA!
 
-# SYNOPSIS
+# TASK CONTENTS
 
-    use Task::BeLike::KWAKWA;
+## Apps
 
-# DESCRIPTION
+### [App::Ack](https://metacpan.org/pod/App::Ack)
 
-Task::BeLike::KWAKWA is
+### [App::ForkProve](https://metacpan.org/pod/App::ForkProve)
+
+## Web
+
+### [Catalyst](https://metacpan.org/pod/Catalyst)
+
+### [Dancer2](https://metacpan.org/pod/Dancer2)
+
+### [Mojolicious](https://metacpan.org/pod/Mojolicious)
 
 # AUTHOR
 
@@ -24,3 +32,6 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 # SEE ALSO
+
+[Task::BeLike::DAGOLDEN](https://metacpan.org/pod/Task::BeLike::DAGOLDEN),
+[Task::BeLike::RJBS](https://metacpan.org/pod/Task::BeLike::RJBS).
