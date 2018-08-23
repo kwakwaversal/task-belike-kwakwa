@@ -28,6 +28,36 @@ Task::BeLike::KWAKWA - Be more like KWAKWA!
 
     my $dt = DateTime::Format::ISO8601->parse_datetime('2018-01-01T00:00:00Z');
 
+## Debugging
+
+### [Reply](https://metacpan.org/pod/Reply)
+
+Install [Term::ReadLine::Gnu](https://metacpan.org/pod/Term::ReadLine::Gnu). You'll likely need `libreadline-dev` or
+`readline-devel` to have actual readline support.
+
+        # ~/.replyrc
+    script_line1 = use strict
+        script_line2 = use warnings
+        script_line3 = use 5.024000
+
+        [Interrupt]
+        [FancyPrompt]
+        [DataDumper]
+        [Colors]
+        [ReadLine]
+        [Hints]
+        [Packages]
+        [LexicalPersistence]
+        [ResultCache]
+        [Autocomplete::Packages]
+        [Autocomplete::Lexicals]
+        [Autocomplete::Functions]
+        [Autocomplete::Globals]
+        [Autocomplete::Methods]
+        [Autocomplete::Commands]
+
+### [Pry](https://metacpan.org/pod/Pry)
+
 ## Filesystem
 
 ## [File::chdir](https://metacpan.org/pod/File::chdir) more sensible way to change directories

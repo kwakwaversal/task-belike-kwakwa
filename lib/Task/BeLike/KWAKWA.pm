@@ -43,6 +43,36 @@ Task::BeLike::KWAKWA - Be more like KWAKWA!
 
     my $dt = DateTime::Format::ISO8601->parse_datetime('2018-01-01T00:00:00Z');
 
+=head2 Debugging
+
+=head3 L<Reply>
+
+Install L<Term::ReadLine::Gnu>. You'll likely need C<libreadline-dev> or
+C<readline-devel> to have actual readline support.
+
+	# ~/.replyrc
+    script_line1 = use strict
+	script_line2 = use warnings
+	script_line3 = use 5.024000
+
+	[Interrupt]
+	[FancyPrompt]
+	[DataDumper]
+	[Colors]
+	[ReadLine]
+	[Hints]
+	[Packages]
+	[LexicalPersistence]
+	[ResultCache]
+	[Autocomplete::Packages]
+	[Autocomplete::Lexicals]
+	[Autocomplete::Functions]
+	[Autocomplete::Globals]
+	[Autocomplete::Methods]
+	[Autocomplete::Commands]
+
+=head3 L<Pry>
+
 =head2 Filesystem
 
 =head2 L<File::chdir> more sensible way to change directories
